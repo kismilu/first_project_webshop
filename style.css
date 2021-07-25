@@ -1,0 +1,232 @@
+html, body {
+    width: 1360px;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-variant: small-caps;
+}
+#lablec {
+    font-size: 14px;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 1360px;
+    height: 80px;
+    background-image: url("img/lablechatter.jpg");
+    background-size: 1360px 80px;
+    z-index: 80;
+}
+nav {
+    border: 1px;
+    margin-top: 80px;
+    height: 59px;
+    background-image: url("img/felső.jpg");
+}
+section {
+    height: 700px;
+}
+main {
+    float: left;
+    height: 100%;
+    width: 86%;
+    background-image: url("img/mainhatter.png");
+}
+aside {
+    float: left;
+    width: 14%;
+    height: 100%;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    background: black url("img/also2.jpg");
+}
+footer {
+    height: 220px;
+    background-image: url("img/lablechatter.jpg");
+    background-size: 1360px 220px;
+}
+
+table {
+    padding-top: 25px;
+    width: 65%;
+    color: white;
+}
+th {
+    font-size: 20px;
+    text-align: center;
+    height: 20px;
+}
+#kozep {
+    text-align: center;
+}
+h1 {font-size: 30px;
+    text-align: center;
+    color: white;
+    letter-spacing: 3px;
+    text-shadow: 3px 2px grey;
+}
+
+@media only screen and (max-width: 860px) {
+    html, body {
+        width: 100%;
+    }
+    header{
+        width: 100%;
+    }
+}
+.a:link, .a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 5px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border: solid 2px grey;
+    border-radius: 10px;
+}
+.a:hover, .a:active {
+    background-color: blue;
+}
+.b:link, .b:visited {
+    background-color: black;
+    color: white;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    border: solid 2px red;
+    border-radius: 10px;
+}
+.b:hover, .b:active {
+    background-color: white;
+    color: black;
+}
+.c:link, .c:visited {
+    background-color: white;
+    color: black;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    border: solid 2px red;
+    border-radius: 10px;
+}
+.c:hover, .c:active {
+    background-color: black;
+    color: white;
+}
+
+
+
+#men1 { position: absolute;
+    top:90px; left: 220px; }
+#men2 { position: absolute;
+    top:90px; left: 370px; }
+#men3 { position: absolute;
+    top:90px; left: 550px; }
+#men4 {position: absolute;
+    top:90px; left: 710px; }
+
+.topright{
+    position: absolute;
+    top: 15px;
+    right: 132px;
+}
+.topright2{
+    position: absolute;
+    top: 15px;
+    right: 80px;
+}
+.topright3{
+    position: absolute;
+    top: 15px;
+    right: 180px;
+}
+
+#content-box{
+    border: 2px solid red;
+    border-radius: 30px;
+    background-color: white;
+    width: 680px;
+    margin-left: 230px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 11px;
+    letter-spacing: 3px;
+}
+
+.transition2 {
+    width:110px;
+    color: red;
+    font-weight: bold;
+    transition: transform .5s;
+    transition-delay: 1s;
+    transition-timing-function: linear;
+}
+.transition2:hover {
+    transform: rotate(180deg);
+    transition: transform 2s;
+    transition-timing-function: linear;
+}
+
+.submit-field {
+    clear: both;
+    padding-top:10px;
+}
+.new-post-form {
+    text-align: center;
+}
+
+textarea {
+    width: 300px;
+    height: 80px;
+}
+
+.product-item {	float:left;	background: #ffffff;margin:15px 10px;	padding:5px;border:#CCC 1px solid;border-radius:4px;}
+.product-item div{text-align:center; margin:10px;}
+.product-price {
+    color: #005dbb;
+    font-weight: 600;
+}
+
+.btnAddAction{    background-color: #eb9e4f;
+    border: 0;
+    padding: 3px 10px;
+    color: #ffffff;
+    margin-left: 2px;
+    border-radius: 2px;
+}
+
+#shopping-cart {margin-bottom:30px;}
+.txt-heading{
+    padding: 10px 10px;
+    border-radius: 2px;
+    color: black;
+    background: #6aadf1;
+    margin-bottom:10px;
+    font-size: 17px;
+}
+#btnEmpty {
+    margin-right: 20px;
+    background-color: #ffffff;
+    border: #FFF 1px solid;
+    padding: 1px 20px;
+    color: #ff0000;
+    font-size: 0.8em;
+    float: right;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.text1{
+    position: absolute;
+    left: 520px;
+    top: 400px;
+}

@@ -1,0 +1,50 @@
+﻿html, body {
+            width: 1360px;
+            height: 756px;
+            margin: 0;
+            padding: 0;
+            margin-left: auto;
+            margin-right: auto;
+            font-variant: small-caps;
+            background-image: url("img/win10.jpg");
+        }
+
+        #content-box {
+            box-sizing:content-box;
+            margin:10px;
+            border:1px solid #000000;
+            padding:10px;
+            width:600px;
+            height:500px;
+            position: absolute;
+            top: 80px;
+            background-color: white;
+            left: 150px;
+            border-radius: 10px 30px 10px 30px;
+
+        }
+        #kozep {
+            text-align: center;
+            font-size: 30px;
+            text-shadow: 3px 2px grey;
+            color: blue;
+        }
+
+        #c{
+            background-color: darkgrey;
+            border: solid black 1px;
+            font-size: 22px;
+            text-align: center;
+            margin-left: 215px;
+            height: 30px;
+            width: 170px;
+            text-decoration: none;
+            font-variant: small-caps;
+            font-family: "Times New Roman";
+            border-radius: 15px 10px 15px 10px;
+
+        }
+
+        #c:hover {
+            background-color: lightgrey;
+        }
